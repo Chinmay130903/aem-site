@@ -95,7 +95,7 @@ footer .footer {
 
 header .header[data-block-status="loaded"],
 footer .footer[data-block-status="loaded"] {
-  visibility: visible;
+  visibility: hidden;
 }
 
 h1,
