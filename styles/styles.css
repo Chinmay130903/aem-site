@@ -90,7 +90,7 @@ header {
 
 header .header,
 footer .footer {
-  visibility: hidden;
+  visibility: visible;
 }
 
 header .header[data-block-status="loaded"],
