@@ -1,0 +1,14 @@
+.quote blockquote{
+    margin: 0;
+    padding: 24px;
+    border-left: 4px solid var(--link-color);
+    font-size: var(--heading-font-size-m);
+    font-style: italic;
+
+}
+.quote cite{
+    display: block;
+    margin-top:12px ;
+    padding-left:24px;
+    
+}
