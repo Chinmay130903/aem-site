@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --background-color: white;
+  --background-color: blue;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: #131313;
@@ -90,12 +90,12 @@ header {
 
 header .header,
 footer .footer {
-  visibility: hidden;
+  visibility: visible;
 }
 
 header .header[data-block-status="loaded"],
 footer .footer[data-block-status="loaded"] {
-  visibility: visible;
+  visibility: hidden;
 }
 
 h1,

@@ -1,4 +1,6 @@
 .*
+!.rum/
+!.rum/**
 *.md
 karma.config.js
 LICENSE
