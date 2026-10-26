@@ -1,10 +1,11 @@
-export default function decorate(block){
-    const[quoteRow,authorRow]=[...block.children];
-    const blockquote=document.createElement('blockquote');
-    blockquote.textContent=quoteRow.textContent.trim()
+export default function decorate(block) {
+  const [quoteRow, authorRow] = [...block.children];
 
-    const cite=document.createElement('cite');
-    cite.textContent=authorRow.textContent.trim()
+  const blockquote = document.createElement('blockquote');
+  blockquote.textContent = quoteRow.textContent.trim();
 
-    block.replaceChildren(blockquote,cite);
+  const cite = document.createElement('cite');
+  cite.textContent = authorRow.textContent.trim();
+
+  block.replaceChildren(blockquote, cite);
 }
